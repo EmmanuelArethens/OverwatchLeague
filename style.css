@@ -1,15 +1,35 @@
+
+
+body {    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
 h3 {
-color: orange
+color: orange; 
+text-align: center;
+
+Font-Weight: Bold;
 }
 
 h1 {
-    position: absolute;
-    color: #fff;
-    font-family: BigNoodleToo,Impact,sans-serif;
-    font-style: italic;
-    margin-left: 450px;
-    margin-top: 450px;
+ position: absolute;
+color: #fff;
+font-family: BigNoodleToo,Impact,sans-serif;
+font-style: italic;
+margin-left: 15em;
+margin-top: 14em;
+text-shadow: 2px 2px 2px black;
 
+}
+
+.logoowl {
+position: absolute;
+margin-left: 25em;
+margin-top: 9em;
+width: 284px;
+height: 251px;
 }
 
 
@@ -30,64 +50,112 @@ video { height: auto;
   vertical-align: middle;
   width: 100%; }
 
-.logoowl {
-position: absolute;
-margin-left: 480px;
-margin-top: 175px;
-width: 284px;
-height: 251px;
-}
+
 
 .presentation {
 background-image: url("bg1.jpg");
 display: flex;
 width:100%;
-height:100%;
+height:600px;
 }
 
 
 
 
 .worldmap {
-
-width: 40%;
+width: 50%;
 height: 50%;
-margin-left: 750px;
-margin-top: 200px;
+margin-left: 650px;
+margin-top: 170px;
+
 }
 
 .presentitre {
-position: absolute
-
+    position: absolute;
+    margin-left: 51px;
+    margin-top: 80px;
 }
+
 
 
 .presentext {
 position: absolute;
-margin-top: 75px;
-margin-right: 900px;
+margin-top: 220px;
+margin-left: 36px;
+margin-right: 644px;
 
 }
 
-
-
-.presentation {
-
-width: 100% ;
-height:700px ;
-
-}
 
 .etapes {
 background-image: url("bg-path.jpg");
-display: flex;
 width:100%;
-height:100%;
+flex-direction: row;
+height:781px;
+color: #fff;
 }
 
-.weneedu {
-background-image: url("bg2.png");
-display: flex;
-width:100%;
-height:100%;
+.annonce { display:block;
+height: 50px;
+width: 150px;
+position:absolute;
+padding-top: 5em;
+padding-left: 8em;
 }
+
+.presaison { display:block;
+width:300px;
+position:absolute;
+padding-top: 20em;
+padding-left: 14em;
+}
+
+.saison { display:block;
+width:300px;
+position:absolute;
+padding-left: 24em;
+}
+
+.championnat { display:block;
+width: 300px;
+position:absolute;
+padding-top: 20em;
+padding-left: 35em;
+}
+
+.avenir {display:block;
+width:300px;
+position:absolute;
+padding-left: 44.5em;
+}
+
+.graph {
+position:absolute;
+height: 30px;
+width: 1153px;
+display: block;
+padding-left: 60px;
+padding-top: 17em;
+}
+
+.check {position:absolute;
+padding-top: 3em;
+padding-left: 1.58em;}
+
+
+.weneedu {
+display: flex;
+background-image: url("gamer.jpg");
+width:100%;
+height:350px;
+}
+
+footer {
+ display:flex;
+  background-image: url("bg1.jpg");
+  
+}
+
+.team1
+.team2 { height:25%;
+width:25%;}
